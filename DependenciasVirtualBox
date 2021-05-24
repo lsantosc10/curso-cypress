@@ -1,0 +1,6 @@
+** Instalar a dependências do virtualBox
+sudo apt install linux-headers-$(uname -r) build-essential dkms
+
+** abrir o VS Code
+> code --user-data-dir=~/root
+
