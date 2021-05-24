@@ -1,0 +1,21 @@
+## Running `apt-get update` for you...
+
++ apt-get update
+Atingido:1 http://br.archive.ubuntu.com/ubuntu focal InRelease
+Atingido:2 http://br.archive.ubuntu.com/ubuntu focal-updates InRelease                                                                       
+Atingido:3 http://br.archive.ubuntu.com/ubuntu focal-backports InRelease                                                                     
+Atingido:4 http://dl.google.com/linux/chrome/deb stable InRelease                                                                            
+Atingido:5 http://security.ubuntu.com/ubuntu focal-security InRelease                                          
+Obter:6 https://deb.nodesource.com/node_16.x focal InRelease [4.583 B]
+Obter:7 https://deb.nodesource.com/node_16.x focal/main amd64 Packages [766 B]
+Baixados 5.349 B em 3s (1.932 B/s)
+Lendo listas de pacotes... Pronto
+
+## Run `sudo apt-get install -y nodejs` to install Node.js 16.x and npm
+## You may also need development tools to build native addons:
+     sudo apt-get install gcc g++ make
+## To install the Yarn package manager, run:
+     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update && sudo apt-get install yarn
+

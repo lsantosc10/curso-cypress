@@ -1,0 +1,189 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/leones/cursos/curso-cypress
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :anotações
+> git ls-files --stage -- /home/leones/cursos/curso-cypress/anotações
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:package-lock.json
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package-lock.json
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:package.json
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:anotações
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/anotações
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:package.json
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/package.json
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:anotações
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/anotações
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/leones/cursos/curso-cypress/anotações
+fatal: your current branch 'master' does not have any commits yet
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/leones/cursos/curso-cypress/anotações
+fatal: your current branch 'master' does not have any commits yet
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/leones/cursos/curso-cypress/anotações
+fatal: your current branch 'master' does not have any commits yet
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/anotações
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/anotações
+fatal: Not a valid object name HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:cypress.json
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:cypress/integration/examples/actions.spec.js
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/actions.spec.js
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:cypress/integration/examples/connectors.spec.js
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+> git clean -f -q -- /home/leones/cursos/curso-cypress/cypress/integration/examples/actions.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/aliasing.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/assertions.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/cookies.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/cypress_api.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/files.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/local_storage.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/location.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/misc.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/navigation.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/network_requests.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/querying.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/spies_stubs_clocks.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/traversal.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/utilities.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/viewport.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/waiting.spec.js /home/leones/cursos/curso-cypress/cypress/integration/examples/window.spec.js
+> git checkout -q
+fatal: Not a valid object name HEAD
+fatal: You are on a branch yet to be born
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+> git status -z -u
+fatal: Not a valid object name HEAD
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+> git clean -f -q -- /home/leones/cursos/curso-cypress/cypress/fixtures/example.json
+> git clean -f -q -- /home/leones/cursos/curso-cypress/cypress/plugins/index.js
+> git clean -f -q -- /home/leones/cursos/curso-cypress/cypress/support/commands.js /home/leones/cursos/curso-cypress/cypress/support/index.js
+fatal: Not a valid object name HEAD
+> git checkout -q
+fatal: You are on a branch yet to be born
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress/integration/examples/connectors.spec.js
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:cypress.json
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/cypress.json
+fatal: Not a valid object name HEAD
+> git check-ignore -v -z --stdin
+> git show --textconv HEAD:.gitignore
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/.gitignore
+fatal: Not a valid object name HEAD
+> git show --textconv HEAD:anotações
+> git ls-tree -l HEAD -- /home/leones/cursos/curso-cypress/anotações
+fatal: Not a valid object name HEAD

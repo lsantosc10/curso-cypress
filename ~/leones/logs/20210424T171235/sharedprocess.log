@@ -1,0 +1,9 @@
+[2021-04-24 17:12:52.012] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-04-24 17:13:26.147] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-24 23:44:29.725] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2021-04-29 04:03:52.463] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-04-29 04:03:53.735] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker undefined
+[2021-04-29 04:04:00.384] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.54544168-f99f-434b-ae96-9c0d65c62f71: ms-azuretools.vscode-docker
+[2021-04-29 04:04:00.659] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-azuretools.vscode-docker-1.12.1
+[2021-04-29 04:04:00.908] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2021-04-29 04:04:03.905] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker

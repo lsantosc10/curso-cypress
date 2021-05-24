@@ -1,0 +1,35 @@
+[2021-04-24 18:25:40.476] [renderer1] [error] Error: file:///home/leones/cursos/curso-cypress/cypress/integration/tickets.spec.js has changed in the meantime
+    at u._validateBeforePrepare (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:825:15676)
+    at u.apply (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:825:16499)
+    at r._performTextEdits (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2157:12383)
+    at r.perform (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2157:11725)
+    at s.apply (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2157:14079)
+    at T.$tryApplyWorkspaceEdit (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2151:109231)
+    at s._doInvokeHandler (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:11903)
+    at s._invokeHandler (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:11587)
+    at s._receiveRequest (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:10257)
+    at s._receiveOneMessage (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:9043)
+    at file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1589:7144
+    at c.fire (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at o.fire (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:16186)
+    at i._receiveMessage (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:21444)
+    at file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:18330
+    at c.fire (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:60:1836)
+    at u.acceptChunk (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:13551)
+    at file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:76:12899
+    at Socket.k (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2781:52777)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-24 18:54:29.234] [renderer1] [error] Failed to execute git
+[2021-04-24 18:54:51.269] [renderer1] [error] Failed to execute git
+[2021-04-24 18:55:19.325] [renderer1] [error] Failed to execute git
+[2021-04-24 18:55:58.369] [renderer1] [error] Failed to execute git
+[2021-04-24 18:56:04.090] [renderer1] [error] Failed to execute git
+[2021-04-24 18:56:19.165] [renderer1] [error] Failed to execute git
+[2021-04-24 20:10:58.227] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.git' took 51% of 7521.467ms, saved PROFILE here: 'file:///tmp/exthost-36e215.cpuprofile' [{"id":"gc","total":1483735,"percentage":20},{"id":"program","total":1172548,"percentage":16},{"id":"self","total":1017228,"percentage":14},{"id":"vscode.git","total":3844861,"percentage":51}]
+[2021-04-29 04:25:37.918] [renderer1] [warning] {}
+[2021-04-29 04:42:37.073] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.typescript-language-features' took 80% of 4933.73ms, saved PROFILE here: 'file:///tmp/exthost-88c9f7.cpuprofile' [{"id":"gc","total":284152,"percentage":6},{"id":"program","total":467343,"percentage":9},{"id":"self","total":159160,"percentage":3},{"id":"vscode.git","total":88165,"percentage":2},{"id":"vscode.typescript-language-features","total":3934456,"percentage":80}]
+[2021-04-29 04:56:16.446] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.git' took 79% of 5695.581ms, saved PROFILE here: 'file:///tmp/exthost-1a91c7.cpuprofile' [{"id":"gc","total":170580,"percentage":3},{"id":"program","total":412028,"percentage":7},{"id":"self","total":474108,"percentage":8},{"id":"vscode.git","total":4513013,"percentage":79},{"id":"vscode.typescript-language-features","total":90208,"percentage":2}]

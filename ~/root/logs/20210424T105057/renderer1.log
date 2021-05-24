@@ -1,0 +1,9 @@
+[2021-04-24 16:38:05.965] [renderer1] [error] Unable to read file 'git:/home/leones/cursos/curso-cypress/package.json?{"path":"/home/leones/cursos/curso-cypress/package.json","ref":"~"}' (Error: File not modified since): Error: Unable to read file 'git:/home/leones/cursos/curso-cypress/package.json?{"path":"/home/leones/cursos/curso-cypress/package.json","ref":"~"}' (Error: File not modified since)
+    at o.doReadFileStream (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:626:48867)
+    at async E.doRead (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2151:80864)
+    at async E.readStream (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2151:80510)
+    at async kr.loadFromFile (file:///snap/code/62/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2149:49103)
+[2021-04-24 16:39:30.149] [renderer1] [error] Failed to execute git
+[2021-04-24 16:39:43.637] [renderer1] [error] Failed to execute git
+[2021-04-24 16:39:44.904] [renderer1] [error] Failed to execute git
+[2021-04-24 16:56:58.268] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.typescript-language-features' took 91% of 372.227ms, saved PROFILE here: 'file:///tmp/exthost-77461c.cpuprofile' [{"id":"program","total":5432,"percentage":1},{"id":"self","total":25221,"percentage":7},{"id":"vscode.typescript-language-features","total":339628,"percentage":91}]

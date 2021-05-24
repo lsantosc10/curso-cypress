@@ -1,0 +1,31 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "Curso de Cypress da Escola TAT",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsantosc10/curso-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "e2e"
+  ],
+  "author": "Leones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lsantosc10/curso-cypress/issues"
+  },
+  "homepage": "https://github.com/lsantosc10/curso-cypress#readme",
+  "dependencies": {
+    "cypress": "^7.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
