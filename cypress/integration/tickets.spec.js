@@ -52,5 +52,19 @@ describe("Tickets", () => {
 
 
    });
+
+   it("fills and reset the form", () => {
+        const firstName = "Leones";
+        const lastName = "Santos";
+
+        cy.get("#first-name").type(firstName);
+        cy.get("#last-name").type(lastName);
+        cy.get("#email").type("leones.santoscampos@gmail.com");
+        cy.get("#ticket-quantity").select("2");
+        cy.get("#vip").check();
+        cy.get("#friend").check();
+
+       
+   });
         
 });
