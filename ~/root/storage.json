@@ -3,6 +3,12 @@
     "openedPathsList": {
         "entries": [
             {
+                "folderUri": "file:///home/leones/cursos/curso-cypress/cypress/integration"
+            },
+            {
+                "fileUri": "file:///home/leones/cursos/curso-cypress/cypress/support/commands.js"
+            },
+            {
                 "fileUri": "file:///home/leones/cursos/curso-cypress/anota%C3%A7%C3%B5es"
             }
         ]
@@ -35,7 +41,7 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.29",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -48,9 +54,36 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/leones/cursos/curso-cypress/cypress/integration",
+                                        "external": "file:///home/leones/cursos/curso-cypress/cypress/integration",
+                                        "path": "/home/leones/cursos/curso-cypress/cypress/integration",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/leones/cursos/curso-cypress/cypress/integration"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/leones/cursos/curso-cypress/cypress/support/commands.js",
+                                        "path": "/home/leones/cursos/curso-cypress/cypress/support/commands.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/leones/cursos/curso-cypress/cypress/support/commands.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/leones/cursos/curso-cypress/anota%C3%A7%C3%B5es",
                                         "path": "/home/leones/cursos/curso-cypress/anotações",
                                         "scheme": "file"
                                     },
@@ -109,7 +142,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.28",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -181,8 +214,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -352,7 +384,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.17",
+                        "id": "submenuitem.19",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -392,13 +424,13 @@
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.toggleEditorVisibility",
-                                    "label": "Show &&Editor Area",
+                                    "id": "workbench.action.togglePanel",
+                                    "label": "Show &&Panel",
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
+                                    "id": "workbench.action.toggleEditorVisibility",
+                                    "label": "Show &&Editor Area",
                                     "checked": true
                                 },
                                 {
@@ -435,7 +467,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.24",
+                        "id": "submenuitem.26",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -547,7 +579,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "Toggle &&Word Wrap"
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -583,14 +615,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.31",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -639,7 +670,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.30",
+                        "id": "submenuitem.32",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -846,7 +877,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.25",
+                        "id": "submenuitem.27",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -901,8 +932,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -961,7 +991,7 @@
                         "label": "&&Welcome"
                     },
                     {
-                        "id": "workbench.action.showGettingStarted",
+                        "id": "workbench.action.openWalkthrough",
                         "label": "Getting Started"
                     },
                     {
@@ -1106,8 +1136,8 @@
                 "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Ctrl+W",
-                "userSettingsLabel": "ctrl+w"
+                "label": "Alt+F4",
+                "userSettingsLabel": "alt+f4"
             },
             "workbench.action.quit": {
                 "label": "Ctrl+Q",
@@ -1253,6 +1283,10 @@
             "workbench.view.explorer": {
                 "label": "Ctrl+Shift+E",
                 "userSettingsLabel": "ctrl+shift+e"
+            },
+            "workbench.view.search": {
+                "label": "Ctrl+Shift+F",
+                "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
                 "label": "Ctrl+Shift+G",
@@ -1464,16 +1498,39 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/leones/cursos/curso-cypress/~/root/Backups/1619237596906",
+            "folder": "file:///home/leones/cursos/curso-cypress/cypress/integration",
+            "backupPath": "/home/leones/cursos/curso-cypress/~/root/Backups/3f67fcc01a680f9f2a7eb4f20611c9f9",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 171,
-                "y": 101,
+                "y": 138,
                 "width": 1024,
                 "height": 599
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/leones/cursos/curso-cypress"
+    "pickerWorkingDir": "/home/leones/cursos/curso-cypress/cypress/support",
+    "windowSplash": {
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 0,
+            "activityBarWidth": 48,
+            "sideBarWidth": 256,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    }
 }

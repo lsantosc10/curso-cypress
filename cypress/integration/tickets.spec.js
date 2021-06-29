@@ -36,7 +36,7 @@ describe("Tickets", () => {
         cy.get("header h1").should("contain", "TICKETBOX");
     });
 
-    it.only("alerts on invalid email", () => {
+    it("alerts on invalid email", () => {
         
        cy.get("#email")
        .as("email") // alias
@@ -56,6 +56,7 @@ describe("Tickets", () => {
    it("fills and reset the form", () => {
         const firstName = "Leones";
         const lastName = "Santos";
+        const fullName = `${firstName} ${lastName}`;
 
         cy.get("#first-name").type(firstName);
         cy.get("#last-name").type(lastName);
@@ -63,8 +64,41 @@ describe("Tickets", () => {
         cy.get("#ticket-quantity").select("2");
         cy.get("#vip").check();
         cy.get("#friend").check();
+        cy.get("#requests").type("IPA beer");
 
+        cy.get(".agreement p").should(
+            "contain",
+            `I, ${fullName}, wish to buy 2 VIP tickets.`
+        );
+
+        cy.get("#agree").click();
+        cy.get("#signature").type(fullName);
+
+        cy.get("button[type='submit']")
+            .as("submitButton")
+            .should("not.be.disabled");
+
+        cy.get("button[type='reset']").click();
+
+        cy.get("@submitButton").should("be.disabled");
        
    });
-        
+
+   it("fills mandatory fields using support command", () => {
+       const customer = {
+           firstName: "João",
+           lastName: "Silva",
+           email: "joaosilva@example.com"
+       };
+
+        cy.fillMandatoryFields(customer);
+
+        cy.get("button[type='submit']")
+        .as("submitButton")
+        .should("not.be.disabled");
+
+        cy.get("#agree").uncheck();
+
+        cy.get("@submitButton").should("be.disabled");
+   });        
 });
