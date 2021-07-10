@@ -1,0 +1,11 @@
+## adiciona apenas um arquivo
+git add 'arquivo'
+
+## adicionar todos os arquivos
+git add .
+
+## commit
+git commit-m 'Descrição do que foi feito'
+
+## push
+git push -u repositorio
